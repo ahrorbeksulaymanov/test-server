@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3005;
 
 // Allowed IP address
-const ALLOWED_IP = process.env.ALLOWED_IP || '185.213.229.25';
+const ALLOWED_IP = process.env.ALLOWED_IP || '185.213.229.23';
 
 // Custom middleware to check IP and set CORS headers
 app.use((req, res, next) => {
